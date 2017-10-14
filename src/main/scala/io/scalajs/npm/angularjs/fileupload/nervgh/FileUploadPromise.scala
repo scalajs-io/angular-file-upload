@@ -4,7 +4,7 @@ import io.scalajs.npm.angularjs.fileupload.nervgh.FileUploadPromise.ProgressEven
 import io.scalajs.npm.angularjs.http.HttpResponse
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * File Upload Promise
@@ -29,7 +29,7 @@ object FileUploadPromise {
     * Progress Event
     * @author lawrence.daniels@gmail.com
     */
-  @ScalaJSDefined
+
   class ProgressEvent(var loaded: js.UndefOr[Double] = js.undefined, var total: js.UndefOr[Double] = js.undefined)
       extends js.Object
 

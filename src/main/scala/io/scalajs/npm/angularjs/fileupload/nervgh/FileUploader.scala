@@ -4,7 +4,7 @@ import io.scalajs.dom.Element
 import io.scalajs.util.ScalaJsHelper._
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * Angular File Uploader (nervgh/angular-js-upload)
@@ -240,7 +240,7 @@ object FileUploader {
   * File Upload Filter
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class FileUploadFilter extends js.Object {
   var name: String    = _
   var fn: js.Function = _
