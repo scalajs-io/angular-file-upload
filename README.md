@@ -14,7 +14,7 @@ options are copied into this object. After, items in the queue (FileItems) are r
 
 ### Build Dependencies
 
-* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
+* [SBT v1.2.x](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
 
@@ -41,7 +41,7 @@ $ sbt test
 To add the `angular-file-upload` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "angular-file-upload" % "0.4.2"
+libraryDependencies += "io.scalajs.npm" %%% "angular-file-upload" % "0.5.0"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
